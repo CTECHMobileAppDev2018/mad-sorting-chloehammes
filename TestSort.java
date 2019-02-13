@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 class TestSort
 {
@@ -9,6 +10,11 @@ class TestSort
     // Test program 
     public static void main(String args[]) 
     { 
+      System.out.println("How many items would you like in your array? Max 1,000,000: ");
+      Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+      System.out.println("Enter username");
+      
+      String userName = myObj.nextLine();  // Read user input
       
       System.out.println("This will test your sorting with 1,000,000 items between +/- 1000000");
       
